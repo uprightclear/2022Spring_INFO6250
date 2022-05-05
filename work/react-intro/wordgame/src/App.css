@@ -1,0 +1,55 @@
+.app {
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.guess-form {
+  padding: 1rem;
+}
+
+button {
+  margin-left: 0.5rem;
+}
+
+.result * {
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: large;
+}
+
+.result .win {
+  background-color: lightgreen;
+  animation: color-change 1s infinite;
+}
+
+.result .waiting {
+  background-color: lightskyblue;
+}
+
+.result .invalid {
+  background-color: firebrick;
+  color: aliceblue;
+}
+
+.result .match {
+  background-color: lightgreen;
+}
+
+.guess-word {
+  font-weight: bold;
+  font-style: italic;
+}
+
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}

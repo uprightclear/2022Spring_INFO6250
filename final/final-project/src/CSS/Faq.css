@@ -1,0 +1,17 @@
+.faqs{
+    height: auto;
+    padding: 1rem 0 10rem;
+    background-color: #f1f1f1;
+    background-attachment: fixed;
+}
+
+.faqs h2{
+    text-align: center;
+    margin: 2rem;
+    font-family: Sana;
+    font-size: 30px;
+}
+
+.faqs .accordion__title{
+    font-weight: 700;
+}

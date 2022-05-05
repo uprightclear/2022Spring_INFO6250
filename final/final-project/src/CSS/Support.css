@@ -1,0 +1,55 @@
+.portal-link{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.support{
+    margin-top: 0;
+}
+
+.support h2{
+    padding: 3rem;
+    margin-top: 0;
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+}
+
+.support h3{
+    text-align: center;
+}
+
+.support {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.support-content {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    align-content: center;
+}
+
+.portal{
+    display: none;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+    padding: 2rem;
+    grid-column: span 12;
+}
+
+@media (min-width: 1600px) {
+    .support-content {
+        padding-top: 2rem;
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+
+    .portal{
+        width: 1000px;
+        display: block;
+        grid-column: 4/10;
+    }
+}

@@ -1,0 +1,32 @@
+.img-logo{
+    padding: 0.5rem;
+    width: 80px;
+    height: 80px;
+}
+
+.header{
+    background-color: black;
+    display: flex;  
+}
+
+.header h1{
+    font-size: 22px;
+    font-family: Sana;
+    margin-left: 1rem;
+}
+
+.header .title{
+    color: white;
+    text-decoration: none;
+    margin: auto 0;
+}
+
+@media (min-width: 600px){
+    .img-logo{
+        margin-left: 2rem;
+    }
+
+    h1{
+        font-size: xx-large;
+    }
+}

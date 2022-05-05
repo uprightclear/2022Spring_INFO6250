@@ -1,0 +1,61 @@
+html {
+    font-family: sans-serif;
+}
+
+#chat-app{
+    background-color: azure;
+    border-radius: 1rem;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+}
+.user{
+    text-align: center;
+    padding-right: 1rem;
+}
+
+div.message {
+    text-align: left;
+}
+
+span.text {
+    color: white;
+    background-color: #2196f3;
+    border-radius: 5px;
+    /*margin: 5px;*/
+    width: auto;
+    padding: 10px;
+    display:inline-block !important;
+}
+
+div.container {
+    padding: 5px;
+}
+
+span.sender {
+    font-size: 90%;
+}
+
+form {
+    text-align: center;
+}
+input {
+    font-size: 130%;
+    background-color: #abd6f9;
+    border-radius: 5px;
+    border: 0;
+}
+
+button{
+    font-size: 130%;
+    color: white;
+    background: #3f51b5;
+    border-radius: 4px;
+    border: 0;
+}
+
+button:active{
+    background: #000000;
+    opacity: 0.5;
+}

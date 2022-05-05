@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: fit-content;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+ul{
+    padding: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul.item-list{
+    list-style-type: square;
+    background-color: gainsboro;
+}
+
+li:nth-child(even){
+    background-color: darkgray;
+}
+
+h2{
+    border-bottom: 1px solid black;
+    width: 400px;
+    text-align: center;
+}
+
+#quant-container{
+    display: inline;
+    margin-left: 30px;
+    position: absolute;
+    left: 270px;
+}
+
+#input-field{
+    text-align: center;
+}

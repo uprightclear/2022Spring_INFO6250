@@ -1,0 +1,73 @@
+.entry-content{
+    margin: 1.5rem 0 0;
+    color: #444;
+    font-family: Sana;
+    font-size: 1.2rem;
+}
+
+.entry-content h1{
+    font-size: 3em;
+    font-family: Sana;
+    clear: both;
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.entry-content > p{
+    text-align: center;
+}
+
+.goal-area{
+    background-color: #f1f1f1;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.goal-content{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.about-image img{
+    max-width: 80%;
+    height: auto;
+}
+
+.goal-content p{
+    line-height: 2.5rem;
+}
+
+.about-image{
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 1600px){
+    .goal-area p{
+        display: block;
+    }
+
+    .goal-area{
+        display: flex;
+        padding-top: 3rem;
+    }
+
+    .goal-content{
+        width: 40%;
+        
+        padding-top: 0;
+        margin-left: 4rem;
+    }
+
+    .about-image{
+        margin: auto auto;
+    }
+
+    
+}
+

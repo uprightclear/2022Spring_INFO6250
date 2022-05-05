@@ -1,0 +1,44 @@
+.accordion{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 40rem;
+    border-bottom: none;
+}
+
+.accordion__title{
+    border-radius: 0.5rem;
+    color: white;
+    position: relative;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    padding-right: 1.25rem;
+    border: none;
+    border-bottom: 1px solid white;
+    font: inherit;
+    background-color: #dc1227;
+    text-align: left;
+}
+
+.accordion__title::after{
+    content: '\2795';
+    position: absolute;
+    right: 0.5rem;
+    top: calc(50% - 1ch);
+}
+
+.accordion__entry--open .accordion__title::after{
+    content: '\2796';
+}
+
+.accordion__body{
+    border-radius: 0.5rem;
+    display: none;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    background-color: white;
+}
+
+.accordion__entry--open .accordion__body{
+    display: block;
+    
+}

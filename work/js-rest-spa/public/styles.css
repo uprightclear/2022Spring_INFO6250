@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: sans-serif;
+}
+
+.content {
+    display: none;
+}
+
+.login {
+    display: none;
+}
+
+.logged-in .content {
+    display: block;
+}
+
+.not-logged-in .login {
+    display: block;
+}
+
+#inventory-app li{
+    padding: 1rem;
+}

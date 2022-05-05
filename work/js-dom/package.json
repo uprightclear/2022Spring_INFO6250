@@ -1,0 +1,15 @@
+{
+  "name": "js-dom",
+  "version": "1.0.0",
+  "description": "* start from the up-to-date main branch (`git checkout main; git pull origin main`) * Create a feature branch named 'js-dom' (`git checkout -b js-dom`) * modify the files in this directory to have the require features * add, commit, and push the branch to github * Create a PR to merge to main * Be sure to include the TA(s) and I as reviewers.   * Due by Sun Mar 6 11:59pm (PT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jiqing Sun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "** Due Sun Mar 13 11:59pm PT  **",
+  "main": "words.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jiqing Sun <sun.jiq@northeastern.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,67 @@
+.login {
+    text-align: center;
+}
+
+.login form {
+    padding: 1rem;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.guessPage {
+    border-radius: 1rem;
+    background-color: #abd6f9;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 1rem;
+}
+
+h2 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.userInfo {
+    margin: 0;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+}
+
+.wrong-label {
+    padding: 1rem;
+}
+
+.guessedWords {
+    border-radius: 1rem;
+    margin-top: 0;
+    background-color: azure;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 0.2rem;
+    list-style: none;
+}
+
+.errorMessage {
+    margin-top: 0.5rem;
+    color: red;
+}
+
+.winning-page {
+    padding: 1rem;
+    background-color: #abd6f9;
+    border-radius: 1rem;
+}
